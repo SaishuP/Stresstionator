@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stresstionator</title>
+
+
+<script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css" />
+
+</head>
+<body>
+<nav class = "nav">
+    <h1 style="font-size:30px;"id = "leftNav">Stresstionator</h1>
+    <input id ="searchbar" placeholder="Search for tips" onkeyup="enter()">  </input>
+        <h1 id = "rightNav" style="font-size:20px;" class = "nav-item">Home</h1>
+        
+        <img id = "moonicon" class = "nav-item"src = "moonicon2.jpeg" style="width:45px;"></img>
+        <img id = "moonicon" class = "nav-item"src = "happyicon.png" style="width:45px;"></img>
+        <img id = "moonicon" class = "nav-item"src = "metericon.jpeg" style="width:45px;"></img>
+
+</nav>
+
+
+<h1 id = "score">Score: 4</h1> 
+<h2 id = "summary"> </h2>
+<button onclick="change()"></button>
+<div id = "iconcontainer">
+    <div class = "box" style="background-color: lightblue;"> <img class = "icon" id = "night" src = "moonicons/lvl5sleep.jpeg" ></img> <h1 class = "centericontext">9/10</h1></div>
+    <div class = "box" style="background-color: lightcoral;"> <img class = "icon" id = "mood" src = "happyicon.png" ></img> </div>
+    <div class = "box" style="background-color: lightgreen;"> <img class = "icon" id = "mood" src = "metericon.jpeg" ></img> </div>
+</div>
+</body>
+</html>
